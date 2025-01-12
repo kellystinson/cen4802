@@ -8,7 +8,6 @@ import java.util.Scanner;
  * @version 1.0
  * @since 2025-01-12
  *
- * Includes a main method to allow user input for the term number.
  */
 public class FibonacciCalculator {
 
