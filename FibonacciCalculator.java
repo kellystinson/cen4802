@@ -34,10 +34,10 @@ public class FibonacciCalculator {
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the term (n) for the Fibonacci sequence: ");
+        System.out.print("\nEnter the term (n) for the Fibonacci sequence: ");
         int n = scanner.nextInt();
         int result = fibonacci(n);
-        System.out.println("The " + n + "th term of the Fibonacci sequence is " + result + ".");
+        System.out.println("\nThe " + n + "th term of the Fibonacci sequence is " + result + ".");
         scanner.close();
     }
 }
