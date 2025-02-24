@@ -10,6 +10,10 @@ import static org.mockito.Mockito.*;
 
 /**
  * Unit tests for the TodoApp class using Mockito.
+ *
+ *  @author Kelly Stinson
+ *  @version 1.1
+ *  @since 2025-01-21
  */
 class TodoAppTest {
 
