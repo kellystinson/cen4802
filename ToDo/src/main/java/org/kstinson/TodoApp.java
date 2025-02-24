@@ -26,10 +26,10 @@ class TodoApp {
      */
      public TodoApp() {
         // Configure Hibernate and map the TodoItem class
-        sessionFactory = new Configuration()
-                .configure("hibernate.cfg.xml")
-                .addAnnotatedClass(TodoItem.class)
-                .buildSessionFactory();
+         Configuration configuration = new Configuration();
+         configuration.configure("hibernate.cfg.xml");
+         configuration.addAnnotatedClass(TodoItem.class);
+         sessionFactory = configuration.buildSessionFactory();
     }
 
     /**
