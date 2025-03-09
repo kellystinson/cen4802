@@ -18,7 +18,6 @@ import static org.mockito.Mockito.*;
 class TodoAppTest {
 
     private TodoApp todoApp;
-    private SessionFactory sessionFactory;
     private Session session;
     private Transaction transaction;
 
@@ -26,7 +25,7 @@ class TodoAppTest {
     void setUp() {
 
         // Mock Hibernate components
-        sessionFactory = mock(SessionFactory.class);
+        SessionFactory sessionFactory = mock(SessionFactory.class);
         session = mock(Session.class);
         transaction = mock(Transaction.class);
 
@@ -81,7 +80,7 @@ class TodoAppTest {
 
         todoApp.deleteTodoItem(999);
 
-        verify(session, never()).delete(any());
+        verify(session, never()).remove(any());
         verify(transaction, never()).commit();
     }
 

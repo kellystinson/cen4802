@@ -1,0 +1,142 @@
+Mar 09, 2025 4:29:23 PM org.kstinson.TodoApp <init>
+INFO: Initializing To-Do Application and checking database connection...
+Mar 09, 2025 4:29:24 PM org.kstinson.TodoApp <init>
+SEVERE: Error connecting to the database: Access denied for user 'root'@'localhost' (using password: YES)
+Mar 09, 2025 4:29:55 PM org.kstinson.TodoApp <init>
+INFO: Initializing To-Do Application and checking database connection...
+Mar 09, 2025 4:29:55 PM org.kstinson.TodoApp <init>
+SEVERE: Error connecting to the database: Access denied for user 'root'@'localhost' (using password: YES)
+Mar 09, 2025 4:30:14 PM org.kstinson.TodoApp <init>
+INFO: Initializing To-Do Application and checking database connection...
+Mar 09, 2025 4:30:14 PM org.kstinson.TodoApp <init>
+INFO: Database connection successful.
+Mar 09, 2025 4:30:30 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #1
+Mar 09, 2025 4:30:30 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #1
+Mar 09, 2025 4:30:38 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #2
+Mar 09, 2025 4:30:38 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #2
+Mar 09, 2025 4:30:49 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #3
+Mar 09, 2025 4:30:49 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #3
+Mar 09, 2025 4:31:00 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #4
+Mar 09, 2025 4:31:00 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #4
+Mar 09, 2025 4:31:04 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:31:04 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 4
+Mar 09, 2025 4:31:22 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #5
+Mar 09, 2025 4:31:22 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #5
+Mar 09, 2025 4:31:31 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #6
+Mar 09, 2025 4:31:31 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #6
+Mar 09, 2025 4:31:33 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:31:33 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 6
+Mar 09, 2025 4:31:42 PM org.kstinson.TodoApp deleteTodoItem
+INFO: Attempting to delete To-Do item with ID: 7
+Mar 09, 2025 4:31:42 PM org.kstinson.TodoApp deleteTodoItem
+WARNING: Invalid ID provided for deletion: 7
+Mar 09, 2025 4:32:38 PM org.kstinson.TodoApp close
+INFO: Application closed and session factory shut down.
+Mar 09, 2025 4:36:35 PM org.kstinson.TodoApp <init>
+INFO: Initializing To-Do Application and checking database connection...
+Mar 09, 2025 4:36:36 PM org.kstinson.TodoApp <init>
+INFO: Database connection successful.
+Mar 09, 2025 4:36:44 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:36:44 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 6
+Mar 09, 2025 4:37:28 PM org.kstinson.TodoApp close
+INFO: Application closed and session factory shut down.
+Mar 09, 2025 4:39:31 PM org.kstinson.TodoApp <init>
+INFO: Initializing To-Do Application and checking database connection...
+Mar 09, 2025 4:39:32 PM org.kstinson.TodoApp <init>
+INFO: Database connection successful.
+Mar 09, 2025 4:39:36 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:39:36 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 6
+Mar 09, 2025 4:39:51 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: 
+Mar 09, 2025 4:39:51 PM org.kstinson.TodoApp addTodoItem
+WARNING: Failed to add To-Do item: Description cannot be blank or only contain whitespace.
+Mar 09, 2025 4:39:51 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: 
+Mar 09, 2025 4:40:26 PM org.kstinson.TodoApp deleteTodoItem
+INFO: Attempting to delete To-Do item with ID: 8
+Mar 09, 2025 4:40:26 PM org.kstinson.TodoApp deleteTodoItem
+WARNING: Invalid ID provided for deletion: 8
+Mar 09, 2025 4:41:16 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:41:16 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 7
+Mar 09, 2025 4:41:29 PM org.kstinson.TodoApp deleteTodoItem
+INFO: Attempting to delete To-Do item with ID: 7
+Mar 09, 2025 4:41:29 PM org.kstinson.TodoApp deleteTodoItem
+INFO: Successfully removed To-Do item: 
+Mar 09, 2025 4:57:55 PM org.kstinson.TodoApp close
+INFO: Application closed and session factory shut down.
+Mar 09, 2025 4:58:21 PM org.kstinson.TodoApp <init>
+INFO: Initializing To-Do Application and checking database connection...
+Mar 09, 2025 4:58:22 PM org.kstinson.TodoApp <init>
+INFO: Database connection successful.
+Mar 09, 2025 4:58:39 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:58:39 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 6
+Mar 09, 2025 4:58:58 PM org.kstinson.TodoApp deleteTodoItem
+INFO: Attempting to delete To-Do item with ID: 19
+Mar 09, 2025 4:58:58 PM org.kstinson.TodoApp deleteTodoItem
+WARNING: Invalid ID provided for deletion: 19
+Mar 09, 2025 4:59:05 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:59:05 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 6
+Mar 09, 2025 4:59:14 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #7
+Mar 09, 2025 4:59:14 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #7
+Mar 09, 2025 4:59:16 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:59:16 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 7
+Mar 09, 2025 4:59:52 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #9
+Mar 09, 2025 4:59:52 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #9
+Mar 09, 2025 4:59:54 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 4:59:54 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 8
+Mar 09, 2025 5:00:36 PM org.kstinson.TodoApp deleteTodoItem
+INFO: Attempting to delete To-Do item with ID: 8
+Mar 09, 2025 5:00:36 PM org.kstinson.TodoApp deleteTodoItem
+INFO: Successfully removed To-Do item: Item #7
+Mar 09, 2025 5:00:40 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 5:00:40 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 7
+Mar 09, 2025 5:00:49 PM org.kstinson.TodoApp addTodoItem
+INFO: Attempting to add To-Do item: Item #10
+Mar 09, 2025 5:00:49 PM org.kstinson.TodoApp addTodoItem
+INFO: Successfully added To-Do item: Item #10
+Mar 09, 2025 5:00:51 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetching all To-Do items from database.
+Mar 09, 2025 5:00:51 PM org.kstinson.TodoApp viewTodoItems
+INFO: Fetched To-Do item(s): 8
+Mar 09, 2025 5:01:14 PM org.kstinson.TodoApp close
+INFO: Application closed and session factory shut down.
+Mar 09, 2025 5:23:17 PM org.kstinson.TodoApp <init>
+INFO: Initializing To-Do Application and checking database connection...
+Mar 09, 2025 5:23:17 PM org.kstinson.TodoApp <init>
+SEVERE: Error connecting to the database: Access denied for user 'root'@'localhost' (using password: YES)
