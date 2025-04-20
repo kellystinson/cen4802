@@ -11,7 +11,7 @@ import jakarta.persistence.*;
  */
 @Entity
 @Table(name = "todo_items")
-class TodoItem {
+public class TodoItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto-increment primary key
     private int id;
