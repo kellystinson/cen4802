@@ -64,17 +64,9 @@
                     <version>3.3.0</version>
                 </plugin>
                 <plugin>
-                    <groupId>maven</groupId>
+                    <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
-                    <version>3.3.2</version>
-                    <configuration>
-                        <archive>
-                            <index>true</index>
-                            <manifest>
-                                <mainClass>org.kstinson.Main</mainClass>
-                            </manifest>
-                        </archive>
-                    </configuration>
+                    <version>3.4.1-SNAPSHOT</version>
                 </plugin>
                 <plugin>
                     <artifactId>maven-install-plugin</artifactId>
